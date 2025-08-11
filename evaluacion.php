@@ -1,8 +1,7 @@
 <?php
 function repartirCartas(){
     $nums = ["A", "K", "Q", "J", 10, 9, 8, 7, 6, 5, 4, 3, 2];
-    $palos = ["picas", "diamantes", "trebol", "corazon"];
-    $m = [];
+    $palos = ["picas", "diamantes", "trebol", "corazon"];$m = [];
     for($i=0;$i<5;$i++){
         $v = $nums[rand(0,12)];
         $p = $palos[rand(0,3)];
